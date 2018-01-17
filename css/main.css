@@ -1,0 +1,981 @@
+    body{
+        font-size: 3.5vw;
+        letter-spacing: -0.05em;
+        width: 100%;
+        height: 100%;
+    }
+    .container-fluid {
+        margin: 0;
+        padding: 0;
+    }
+    .row {
+        margin: 0;
+    }
+    .ta-center {
+        text-align: center;
+    }
+    .color-white {
+        color: white;
+    }
+    .section-head {
+        font-size: 1.8em;
+    }
+    .section-subhead {
+        font-size: 1.4em;
+    }
+    .section-text {
+        font-size: 1.0em;
+    }
+
+    /* This is part of navbar */
+    .navbar-default {
+        background-color: white;
+    }
+    .navbar-default .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        z-index: 500;
+    }
+    .navbar-nav {
+        float: right;
+        background-color: white;
+        margin-top: 0;
+        width: 12em;
+    }
+    .navbar-nav a {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: rgb(171, 171, 171);
+    }
+    .navbar-default .navbar-toggle:focus, 
+    .navbar-default .navbar-toggle:hover {
+        border-radius: 4em;
+        background-color: rgba(120, 85, 241, 0.3);
+    }
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-nav>li>a {
+        color: rgb(55, 55, 55);
+    }
+    .navbar-default .navbar-nav>li>a:focus,
+    .navbar-default .navbar-nav>li>a:hover {
+        cursor: pointer;
+        color: rgb(120, 85, 241);
+    }
+    .col-xs-12, .col-xs-6, .col-xs-3 {
+        padding: 0;
+    }
+    
+    /* This is part of footer */
+    .terms {
+        font-size: 0.8em;
+        margin: 40px 0 0 0;
+        font-weight: bold;
+        color: rgb(68, 68, 68);
+    }
+    .smaller-text-of-bottom {
+        margin: 0px;
+        font-size: 0.8em;
+        font-weight: bold;
+        color: rgb(90, 90, 90);
+    }
+    .navbar-default .navbar-nav>li .current-url {
+        color: rgb(120, 85, 241);
+    }
+    .foursquares-wrapper {
+        width: 100%;
+    }
+    .halfsquare {
+        display: inline-block;
+        width: 50%;
+        height: 9em;
+        vertical-align: top;
+    }
+    .halfsquare-head {
+        padding-top: 1em;
+        padding-left: 15px;
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+    }
+    .halfsquare-text {
+        margin: 0px;
+        padding-left: 15px;
+        color: rgb(70, 70, 70);
+    }
+    .header {
+        width: 100%;
+        height: 16em;
+        overflow: hidden;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 2.3em;
+        margin-top: 0.8em;
+        margin-bottom: 0;
+    }
+    .img-taskhead {
+        position: relative;
+        width: 26em;
+    }
+    .header-text-and-input-wrapper {
+        width: 100%;
+        height: 100%;
+        margin: 0em;
+    }
+    .header-text-and-input {
+        width: 100%;
+        position: relative;
+        z-index: 100;
+        height: 100%;
+        margin: 0em;
+        padding: 0em;
+    }
+    .img-logo-of-bottom {
+        min-width: 180px;
+        min-height: 40px;
+        height: 3.5em;
+        margin: 1em 0 2em 0;
+    }
+/* ###################################################### */
+    #img-logo {
+        height: 3.5em;
+        margin-left: 1em;
+    }
+    #toggle-button {
+        border: none;
+        margin: 0.6em 0.6em 0 0;
+    }
+    #toggle-button :nth-child(2), #toggle-button :nth-child(3){
+        margin-top: 0.4em;
+    }
+    #input-email-wrapper {
+        position: relative;
+        z-index: 200;
+        width: 80vw;
+        height: 2.3em;
+        margin: 1.5em auto;
+        padding: 0;
+        border: 1.5px solid rgb(233, 232, 238);
+    }
+    #input-email {
+        padding-left: 0.5em;
+        border: none;
+        width: 67%;
+        height: 100%;
+    }
+    #pink-button {
+        display: inline-block;
+        width: 33%;
+        height: 100%;
+        line-height: 2em;
+        vertical-align: top;
+        background-color: rgb(236, 76, 202);
+        color: white;
+        font-weight: bold;
+    }
+    #pink-button:hover {
+        border: none;
+        cursor: pointer;
+    }
+
+    /* This is part of #footer */
+    #footer {
+        background-color: rgb(249, 248, 254);
+    }
+
+    #terms-wrapper{
+        margin-top: -19px;
+        margin-bottom: 20px;
+    }
+    #terms-wrapper div {
+        display: inline-block;
+        padding-bottom: 0em;
+        padding-left: 0.2em;
+        height: 0.7em;
+        border-left: 0.1em solid rgb(68, 68, 68);
+    }
+    #terms-wrapper span {
+        padding-right: 0.2em;
+    }
+    #the-address {
+        margin-top: 10px;
+    }
+    #the-address :nth-child(2) {
+        display: none;
+    }
+    #the-address div {
+        display: inline-block;
+        padding-bottom: 0em;
+        padding-left: 0.2em;
+        height: 0.5em;
+        border-left: 0.1em solid rgb(90, 90, 90);
+    }
+    #the-address span {
+        padding-right: 0.2em;
+    }
+    #the-rights {
+        margin: 20px 0 35px 0;
+    }
+    #the-rights * {
+        margin: 5px 0 0 0;
+    }
+    
+/* imago-main imago-main imago-main imago-main imago-main */
+    .main-title, .main-solution-app, .main-no-more {
+        color: white;
+    }
+    .main-solution-app {
+        font-weight: bold;
+    }
+    /* These are the informations of app. */
+    .main-advantage {
+        display: block;
+    }
+    .main-img-of-advantage {
+        margin-top: 40px;
+        width: 120px;
+        height: 120px;
+    }
+    .main-short-border {
+        margin: 0.2em auto 0.5em auto;
+        width: 10%;
+        height: 0em;
+        border-top: 2px solid rgb(236, 76, 202);
+    }
+    .main-h1-darker-text {
+        margin: 20px 0 20px 0;
+        font-weight: bold;
+        color: rgb(68, 68, 68);
+    }
+    .main-h4-brighter-text {
+        margin-top: 20px;
+        padding-bottom: 50px;
+        color: rgb(60, 60, 60);
+        border-bottom: 1px solid rgb(216, 216, 216);
+    }
+    .save-an-hour {
+        border: none;
+    }
+    .responsive-pc-mobile {
+        color: rgb(68, 68, 68);
+        font-weight: 600;
+    }
+
+    /* This is img of #header. */
+    #main-header {
+        background-color: rgba(249, 159, 0, 1);
+    }
+    #main-img-taskhead {
+        margin-top: -10.6em;
+    }
+    #main-header-text-and-input {
+        background-color: rgba(249, 159, 0, 0.3);
+    }
+    #advantage-wrapper {
+        top: -0.9em;
+        display: block;
+        background-color: white;
+        z-index: -200;
+    }
+    #responsive-wrapper {
+        padding-top: 2.5em;
+        height: 11em;
+        background-color: rgb(245, 246, 248);
+    }
+    #google-play, #app-store {
+        font-size: 1.0em;
+        display: inline-block;
+        width: 9.9em;
+        height: 2.6em;
+        line-height: 2.6em;
+        border-radius: 25px;
+        color: white;
+    }
+    #google-play {
+        background-color: rgb(246, 164, 28);
+    }
+    #app-store {
+        margin-left: 3%;
+        background-color: rgb(234, 73, 202);
+    }
+    
+/* imago-institute imago-institute imago-institute imago-institute imago-institute */
+    .institute-smaller-right-row {
+        background-color: rgb(234, 73, 202);
+    }
+    .institute-smaller-right-row *, .institute-smaller-left-row * {
+        color: rgb(255, 255, 255);
+    }
+    .institute-smaller-right-row h1, .institute-smaller-left-row h1 {
+        margin: 6px 0 5px 0;
+        letter-spacing: -0.1em;
+    }
+    .institute-smaller-left-row {
+        background-color: rgb(249, 159, 0);
+        padding-right: 15px;
+    }
+    .institute-section-subhead { font-size: 1.2em; }
+    .institute-section-text { font-size: 0.9em; }
+    
+    .institute-title {
+        font-size: 1.3em;
+        letter-spacing: -0.1em;
+        margin: 0;
+    }
+    .comma {
+        display: none;
+    }
+
+    #institute-header {
+        background-color: rgba(245, 246, 248, 1);
+    }
+    #institute-header-text-and-input {
+        background-color: rgba(245, 246, 248, 0.3);
+        padding-top: 2.5em;
+    }
+    #institute-img-taskhead {
+        margin-top: -8.5em;
+    }
+    #release {
+        font-size: 3.5em;
+        font-weight: bold;
+        margin-top: 0em;
+        margin-bottom: 0.3em;
+    }
+    #early-notice {
+        font-size: 0.9em;
+        margin-top: 0.5em;
+        color: rgb(110, 111, 115);
+    }
+    #input-email-wrapper {
+        margin: 25px auto 0 auto;
+    }
+    /* This is part of #texts-of-학원. */
+    #texts-of-학원 {
+        background-color: white;
+    }
+    #texts-of-학원 h1 {
+        margin-top: 15px;
+        padding-top: 0.5em;
+        letter-spacing: -0.1em;
+        /* font-size: 5.5em; */
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+    }
+    #texts-of-학원 p {
+        margin-top: 1em;
+        margin-bottom: 15px;
+        padding-bottom: 1em;
+        color: rgb(91, 91, 91);
+    }
+
+    /* imago-dcc imago-dcc imago-dcc imago-dcc imago-dcc */
+    .dcc-body {
+        background-color: rgb(247, 247, 247);
+    }
+    .dcc-h1  {
+        margin-top: 8px;
+    }
+        /* These are long boxes of magenta and orange. */
+    .p-long-box {
+        margin: 0px;
+        padding-left: 1em;
+        font-size: 0.9em;
+        color: white;
+    }
+    /* This is part of #writing-report. */
+    .reports {
+        display: inline-block;
+        text-align: center;
+        height: 5vw;
+    }
+    .reports p {
+        font-weight: bold;
+        color: rgb(68, 68, 68);
+    }
+    .circle {
+        margin: 3vw;
+        border: 1px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+        border-radius: 10vw;
+        width: 26vw;
+        height: 26vw;
+        border-radius: 900px;
+        min-width: 120px;
+        min-height: 120px;
+    }
+    .circle img {
+        margin-top: 5.5vw;
+        width: 16vw;
+        height: 17.5vw;
+        min-width: 75px;
+        min-height: 75px;
+    }
+    .long-box {
+        font-size: 1.2em;
+        padding: 1.0em 0 1em 0.75em;
+        font-weight: bold;
+        color: white;
+    }
+    /* This is part of #easierthanㄱㄴㄷ. */
+    #easierthanㄱㄴㄷ-wrapper {
+        background-color: rgb(247, 247, 247);
+    }
+    #texts-of-easierthanㄱㄴㄷ {
+        padding: 2em;
+    }
+    #texts-of-easierthanㄱㄴㄷ span {
+        display: none;
+    }
+    #texts-of-easierthanㄱㄴㄷ h6 {
+        text-align: left;
+        font-size: 2.5em;
+        font-weight: bold;
+        color: rgb(226, 73, 186);
+    }
+    #texts-of-easierthanㄱㄴㄷ p {
+        font-size: 1.1em;
+        font-weight: 500;
+        color: rgb(68, 68, 68);
+    }
+    #tada {
+        margin-bottom: 0;
+    }
+    #auto-downloaded {
+        margin-left: 0.6em;
+    }
+    /* This is part of #texts-of-놀이방-wrapper. */
+    #놀이방-wrapper {
+        background-color: white;
+    }
+    #texts-of-놀이방 h1 {
+        padding-top: 1em;
+        font-size: 2em;
+        letter-spacing: -1px;
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+    }
+    #texts-of-놀이방 p {
+        padding-top: 0.5em;
+        padding-bottom: 1.5em;
+        letter-spacing: -1px;
+        font-size: 1.2em;
+        color: rgb(91, 91, 91);
+    }
+    /* These are #communication and #contentsofaclass. */
+    #texts-of-communication {
+        background-color: rgb(234, 73, 202);
+        height: 9em;
+    }
+    #texts-of-aboutclass {
+        background-color: rgb(249, 159, 0);
+        height: 9em;
+    }
+    /* This is part of #writing-report */
+    #writing-report {
+        text-align: center;
+        padding-bottom: 8vw;
+    }
+    #writing-report h1{
+        text-align: left;
+        padding-top: 1em;
+        padding-left: 1em;
+        font-weight: bold;
+        color: rgb(58, 58, 58);
+    }
+    #writing-report h6 {
+        border: 1px solid red;
+        margin: 0;
+    }
+
+    /* imago-parent imago-parent imago-parent imago-parent */
+    .gradient-height{
+        height: 100%;
+        position: relative;
+    }
+    /* This is the information of function */
+    .col-xs-6 {
+        height: 35vw;
+        background-color: rgb(245, 246, 248);
+    }
+    .texts-of-smaller-left-wrapper {
+        padding-top: 1.5vw;
+        padding-right: 1em;
+    }
+    .texts-of-smaller-right-wrapper {
+        padding-top: 2.5vw;
+        padding-left: 1em;
+    }
+    .bigger-h1-text {
+        letter-spacing: -0.1em;
+    }
+    .smaller-p-text {
+        letter-spacing: -0.1em;
+        margin: 0px;
+    }
+    .parent-smaller-right-row {
+        background-color: rgb(249, 159, 0);
+    }
+    .parent-smaller-right-row * {
+        color: rgb(255, 255, 255);
+    }
+    .parent-smaller-left-row {
+        text-align: right;
+    }
+    .parent-smaller-left-row h1 {
+        padding: 0;
+        margin-top: 1.3em;
+    }
+
+    /* This is part of #report-routine. */
+    #gradient-report-routine {
+        background: linear-gradient(to right, rgba(235, 235, 235, 1) , rgba(235, 235, 235, 0.9), rgba(235, 235, 235, 0.4), rgba(230, 230, 230, 0));
+        position: absolute;
+        width: 100%;
+        z-index: 200;
+    }
+    #report-routine-wrapper img {
+        display: block;
+        position: relative;
+        padding: 0px;
+        max-height: 350px;
+    }
+    #texts-of-report-routine-wrapper {
+        font-weight: bold;
+        position: absolute;
+        z-index: 300;
+        left: 2em;
+        top: 4em;
+    }
+    #texts-of-report-routine-wrapper h4  {
+        margin: 0;
+        font-weight: bold;
+        letter-spacing: -0.05em;
+        font-size: 1.5em;
+    }
+    #texts-of-report-routine-wrapper p {
+        font-size: 1.1em;
+        font-weight: normal;
+        margin-top: 1.5em;
+    }
+
+    /* This is part of #texts-of-학부모-wrapper. */
+    #texts-of-학부모-wrapper h1 {
+        letter-spacing: -0.1em;
+        margin-top: 1.5em;
+        font-size: 2em;
+        font-weight: bold;
+        color: rgb(61, 61, 61);
+    }
+    #texts-of-학부모-wrapper p {
+        margin-bottom: 3em;
+    }
+
+    #realtime-notice {
+        background-color: rgb(234, 73, 202);
+    }
+
+    /* This is part of #inviting. */
+    #texts-of-inviting-wrapper h4 {
+        color: rgb(68, 68, 68);
+        font-weight: bold;
+        padding-top: 1.8em;
+        padding-bottom: 0.8em;
+    }
+    #texts-of-inviting-wrapper p {
+        margin: 0 auto 2.4em auto;
+        font-size: 1.5em;
+        line-height: 2.5em;
+        width: 8em;
+        height: 2.5em;
+        border-radius: 1em;
+        color: white;
+        background-color: rgb(234, 73, 202);
+    }
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+/* Non-mobile screens */ /* Non-mobile screens */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.4vw;
+    }
+    .nav a {
+        padding-bottom: 1em;
+        font-size: 1.0em;
+        font-weight: 600;
+    }
+    .navbar-default {
+        padding: 0.5em 0;
+    }
+    .navbar-nav {
+        width: 20em;
+        text-align: right;
+    }
+    .navbar-nav>li {
+        margin-right: 20px;
+    }
+    .foursquares-wrapper {
+        width: 50%;
+        display: inline-block;
+    }
+    .halfsquare {
+        height: 11em;
+    }
+    .halfsquare-head {
+        font-size: 1.4em;
+        padding-left: 25px;
+        padding-top: 1.4em;
+    }
+    .halfsquare-text {
+        font-size: 1.0em;
+        padding-left: 25px;
+    }
+    .header {
+        position: relative;
+        width: 100%;
+    }
+    .title {
+        font-weight: bold;
+        font-size: 3.5em;
+        margin-top: 1.5em;
+        margin-bottom: 0.1em;
+    }
+    .img-taskhead {
+        width: 55em;
+    }
+    .img-logo-of-bottom {
+        min-width: 185px;
+        min-height: 40px;
+        width: 5vw;
+        height: 5vw;
+        margin: 0.4em 0 0.2em 0;
+    }
+    /* ###################################################### */
+    /* This is a top. */
+    #img-logo {
+        margin-left: 7vw;
+        min-width: 14em;
+        height: 5vw;
+        width: 15vw;
+    }
+    #menu {
+        margin: 0.5em 0;
+    }
+    #input-email-wrapper {
+        top: 2.5em;
+        width: 50%;
+        height: 3.2em;
+    }
+    #pink-button {
+        font-size: 1.2em;
+        line-height: 2.7em;
+    }
+    /* This is #footer. */
+    #footer {
+        font-size: 1.1vw;
+        padding: 20px 0;
+    }
+    #terms-wrapper {
+        margin-top: 0.1em;
+    }
+    #terms-wrapper * {
+        font-size: 1.1em;
+    }
+    #the-address * {
+        display: inline-block;
+        font-size: 1em;
+    }
+    #the-address :nth-child(2) {
+        display: inline-block;
+    }
+    #the-rights * {
+        display: inline-block;
+        font-size: 1em;
+    }
+
+/* imago-main imago-main imago-main imago-main imago-main */
+    /* These are the informations of app. */
+    .main-solution-app {
+        font-size: 1.8em;
+        font-weight: normal;
+        margin: 0.5em 0 0 0;
+        letter-spacing: -0.1em;
+    }
+    .main-advantage {
+            text-align: right;
+            display: inline-block;
+            width: 50%
+        }
+    .main-img-of-advantage {
+        width: 9em;
+        height: 9em;
+    }
+    .main-h4-brighter-text{
+        border-bottom: none;
+    }
+    .left-advantage {
+        padding: 2vw 0 1.5vw 23%;
+    }
+    .right-advantage {
+        padding: 2vw 18% 1.5vw 0;
+    }
+    .cross-border {
+        position: relative;
+        z-index: 400;
+        padding: 0em;
+        margin: 0em;
+        display: inline-block;
+        border-right: 1px solid rgb(216, 216, 216);
+        border-bottom: 1px solid rgb(216, 216, 216);
+    }
+    .border-none{
+        border-bottom: none;
+    }
+    .responsive-pc-mobile {
+        font-weight: normal;
+        margin-bottom: 0.5em;
+        font-size: 1.5em;
+    }
+
+    /* This is #header. */
+    #main-header {
+        min-height: 43vw;
+        background: linear-gradient(to bottom, rgba(254, 144, 57, 1) ,rgba(246, 166, 27, 1));
+    }
+    #main-header-short-border {
+        width: 3em;
+    }
+    #main-img-taskhead {
+        top: -10em;
+    }
+    #main-footer {
+        background-color: rgb(255, 255, 255);
+    }
+
+/* imago-institute imago-institute imago-institute imago-institute imago-institute */
+    .institute-title {
+        font-size: 1.8em;
+        padding-top: 0.8em;
+        display: inline-block;
+    }
+    .attendance {
+        margin-top: 10px;
+    }
+    /* This is #header. */
+    #institute-header {
+        background: rgba(234, 233, 238, 1);
+        height: 23.5em;
+    }
+    #institute-img-taskhead {
+        top: -4.1em;
+        width: 46.5em;
+    }
+    #early-notice {
+        font-size: 1.0em;
+    }
+    #input-email-wrapper {
+        top: 5em;
+    }
+    /* This is part of #texts-of-학원 */
+    #texts-of-학원 {
+        padding: 0.5em;
+    }
+    #texts-of-학원 h1 {
+        margin-top: 1.1em;
+    }
+    #texts-of-학원 p {
+        font-size: 1.1em;
+    }
+    #institute-img-logo-of-bottom {
+        min-width: 200px;
+        min-height: 40px;
+        margin: 0.3em 0 0.2em 0;
+    }
+
+    /* imago-dcc imago-dcc imago-dcc imago-dcc imago-dcc */
+    .col-sm-3 {
+        height: 12em;
+        padding: 0;
+        font-size: 1.2vw;
+    }
+    .pc-3-lines h1 {
+        padding-top: 2.2em;
+        font-size: 1.5vw;
+    }
+    .pc-2-lines h1 {
+        padding-top: 2.6em;
+        font-size: 1.5vw;
+    }
+    .pc-3-lines p {
+        font-size: 1.2vw;
+    }
+    .pc-2-lines p {
+        font-size: 1.2vw;
+    }
+    /* This is #reports */
+    .reports p {
+        font-size: 1.5vw;
+        font-weight: bold;
+        color: rgb(68, 68, 68);
+    }
+    .circle {
+        margin: 2vw;
+        border: 1px solid rgb(0, 0, 0);
+        box-sizing: border-box;
+        border-radius: 10vw;
+        width: 14vw;
+        height: 14vw;
+        border-radius: 900px;
+        min-width: 120px;
+        min-height: 120px;
+    }
+    .circle img {
+        margin-top: 2vw;
+        width: 7vw;
+        height: 10vw;
+        min-width: 75px;
+        min-height: 75px;
+    }
+    .long-box {
+        font-size: 1.5em;
+        padding: 1.5em 0 1em 0.75em;
+    }
+    /* This is #easierthanㄱㄴㄷ. */
+    #texts-of-easierthanㄱㄴㄷ span {
+        display: inline;
+    }
+    #texts-of-easierthanㄱㄴㄷ {
+        font-size: 1.2em;
+        padding: 4em 0 0 1.5em;
+    }
+    #texts-of-easierthanㄱㄴㄷ h6 {
+        padding: 0 0 1em 0.5em;
+    }
+    /* This is #놀이방-wrapper. */
+    #놀이방-wrapper {
+        background-color: white;
+    }
+    #놀이방-wrapper div {
+        padding: 3vw 0;
+    }
+    #texts-of-놀이방 h1 {
+        letter-spacing: -2px;
+        font-weight: bold;
+        letter-spacing: -0.1em;
+        font-size: 2.8vw;
+    }
+    #texts-of-놀이방 p {
+        padding-bottom: 15px;
+        font-size: 1.5vw;
+    }
+    #communication-wrapper {
+        height: 11em;
+    }
+    #texts-of-communication, #texts-of-aboutclass {
+        height: 100%;
+    }
+    #orange-aboutclass {
+        background-color: rgb(249, 159, 0);
+    }
+    #orange-aboutclass {
+        height: 13em;
+        display: relative;
+    }
+    #orange-aboutclass > h1 {
+        padding-bottom: 0.2em;
+        padding-left: 0.5em;
+    }
+    #orange-aboutclass > p {
+        padding-left: 0.5em;
+        font-size: 1.5em;
+    }
+    /* This is part of #writing-report */
+    #writing-report {
+        text-align: center;
+        padding-bottom: 3em;
+    }
+    #writing-report h1{
+        text-align: left;
+        padding-top: 2em;
+        padding-left: 7em;
+        font-weight: bold;
+        color: rgb(58, 58, 58);
+    }
+    #writing-report h6 {
+        border: 1px solid red;
+        margin: 0;
+        display: none;
+    }
+    /* imago-parent imago-parent imago-parent imago-parent */
+    .gradient-height{
+        font-size: 1.3em;
+        background-color: rgba(235, 235, 235, 1);
+    }
+    .col-xs-6 {
+        height: 18em;
+    }
+    .col-xs-6 p:nth-last-of-type(1),
+    .col-xs-6 p:nth-last-of-type(2) {
+        display: inline-block;
+        padding: 0px;
+    }
+    .col-xs-6 p {
+        font-weight: 500;
+    }
+    .texts-of-smaller-left-wrapper {
+        padding-top: 4em;
+        padding-right: 2em;
+    }
+    .texts-of-smaller-right-wrapper {
+        padding-top: 6em;
+        padding-left: 2em;
+    }
+    .texts-of-smaller-right-wrapper h1, .texts-of-smaller-left-wrapper h1 {
+        font-size: 1.8em;
+    }
+    .texts-of-smaller-right-wrapper p, .texts-of-smaller-left-wrapper p {
+        font-size: 1.5em;
+    }
+
+    #report-routine-wrapper img {
+        position: relative;
+        padding: 0px;
+        margin: 0 0 0 33%;
+        width: 66%;
+        max-height: none;
+    }
+    #gradient-report-routine {
+        left: 33%;
+        width: 25%;
+    }
+    #texts-of-report-routine-wrapper {
+        padding-left: 3.5em;
+        top: 12.5em;
+    }
+    #texts-of-report-routine-wrapper  p{
+        font-weight: 500;
+    }
+    #texts-of-학부모-wrapper h1 {
+        margin-top: 5vw;
+    }
+    #texts-of-학부모-wrapper p {
+        font-weight: 500;
+        margin-top: 2vw;
+    }
+    #texts-of-inviting-wrapper h4 {
+        font-size: 2.2em;
+        font-weight: bold;
+        padding-top: 1.2em;
+    }
+    #texts-of-inviting-wrapper p {
+        font-size: 1.8em;
+        width: 10em;
+        border-radius: 1.5vw;
+    }
+}
